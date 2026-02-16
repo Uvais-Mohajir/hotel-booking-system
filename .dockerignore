@@ -1,0 +1,8 @@
+.git
+.github
+target
+*.log
+*.tmp
+*.swp
+README.md
+HELP.md

@@ -1,0 +1,136 @@
+:root {
+    --brand: #003b95;
+    --brand-dark: #00224f;
+    --accent: #febb02;
+    --bg: #f4f7fb;
+    --text: #1b2430;
+    --muted: #5b6675;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #f6f9fc, #eaf1f8);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-nav {
+    background: var(--brand);
+}
+
+.top-nav .navbar-brand,
+.top-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.top-nav .nav-link.active,
+.top-nav .nav-link:hover {
+    color: #ffe8a3 !important;
+}
+
+main {
+    flex: 1;
+}
+
+.section-card {
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(6, 30, 53, 0.09);
+}
+
+.btn-brand {
+    background: var(--brand);
+    color: #fff;
+    border: 0;
+}
+
+.btn-brand:hover {
+    background: var(--brand-dark);
+    color: #fff;
+}
+
+.search-hero {
+    background: linear-gradient(135deg, #003b95 0%, #0057b8 100%);
+    color: #fff;
+    border-radius: 14px;
+    padding: 1.25rem;
+}
+
+.search-strip {
+    border: 4px solid var(--accent);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(0, 29, 80, 0.2);
+}
+
+.search-strip .form-control {
+    border: 0;
+    border-radius: 0;
+    min-height: 52px;
+}
+
+.search-strip .btn {
+    min-height: 52px;
+    font-weight: 700;
+}
+
+.property-card {
+    border: 1px solid #d9e2ef;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.property-photo {
+    background: linear-gradient(120deg, #d9e8ff, #b7d2ff);
+    min-height: 170px;
+}
+
+.pill {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 12px;
+    background: #e6f0ff;
+    color: #0f3f82;
+    font-weight: 700;
+}
+
+.price-box {
+    background: #f0f7ff;
+    border: 1px solid #c8defc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+.dashboard-stat {
+    border-radius: 12px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.stat-a { background: #265f91; }
+.stat-b { background: #2f8f83; }
+.stat-c { background: #cc8b2f; }
+.stat-d { background: #994a58; }
+
+footer.site-footer {
+    background: var(--brand);
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px;
+    margin-top: 2rem;
+}
+
+.page-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
